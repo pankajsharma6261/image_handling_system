@@ -1,0 +1,87 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1150px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.row {
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+}
+
+.box {
+  border: 1px solid #444444;
+  padding: 1rem;
+}
+
+.img-box {
+  border: 1px solid #444444;
+  padding: 1rem;
+}
+
+.col-2 {
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+}
+
+.col-4 {
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.lg-heading {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #444444;
+  letter-spacing: .08em;
+  padding: 1rem;
+  border: 1px solid #444444;
+  margin: 1rem 0;
+}
+
+.form-group {
+  display: -ms-grid;
+  display: grid;
+  gap: .5rem;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  width: 100%;
+  border: 1px solid #444444;
+  padding: .3em;
+}
+
+.btn {
+  outline: none;
+  border: 1px solid #444444;
+  padding: .3rem 1rem;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  cursor: pointer;
+}
+
+.btn-submit {
+  background-color: lightgreen;
+}
+
+.btn-delete {
+  background-color: lightsalmon;
+}
+/*# sourceMappingURL=style.css.map */

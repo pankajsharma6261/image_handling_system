@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image crud</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="lg-heading"> image crud system</h1>
+        <div class="row col-2">
+            <div class="box">
+                <form class="form" id="myform">
+                    <div class="form-group">
+                        <label for="profile">profile : </label>
+                        <input type="file" name="profile" id="profile" class="form-control" multiple required>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="save" name="submit" class="btn btn-submit">
+                    </div>
+                </form>
+            </div>
+            <div class="box">
+                <div class="row col-4" id="show_img_data">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
